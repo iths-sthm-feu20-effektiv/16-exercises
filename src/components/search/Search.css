@@ -1,0 +1,17 @@
+.search {
+	display: flex;
+	flex-direction: column;
+}
+
+.search input {
+	font-size: 1.2em;
+	margin: 1em;
+	padding: 0.2em;
+	/* display: block;
+	width: 80%; */
+}
+
+.search img {
+	max-width: 4em;
+	max-height: 4em;
+}

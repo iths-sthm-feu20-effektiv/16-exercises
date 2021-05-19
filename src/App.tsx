@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import RecipeView from './components/recipe/RecipeView'
+import SearchView from './components/search/SearchView'
 
 import defaultData from './data/data.js'
 
@@ -33,6 +34,8 @@ function App() {
     return (
         <div className="App">
             <RecipeView recipe={data} updateIngredient={updateIngredient} />
+
+			<SearchView />
         </div>
     );
 }
